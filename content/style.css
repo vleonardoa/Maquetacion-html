@@ -1,0 +1,139 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    clear: both;
+    margin: 50px;
+    inline-size: 80%;
+    text-align: start;
+    background-color: #EEE;
+}
+
+h2 a {
+    color: #85a539;
+    text-align: center;
+    margin: 0 50px;
+    text-transform: uppercase;
+}
+
+.Main {
+    background-color: #FFF;
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.Content {
+    inline-size: 70%;
+    float: inline-start;
+}
+
+.pageHeader nav {
+    background: #85a539;
+    block-size: 40px;
+    margin: 0 30px auto;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.pageHeader nav ul {
+    margin: 0 auto;
+}
+
+.pageHeader nav ul li {
+    /*   float: inline-start;*/
+    display: inline;
+}
+
+.pageHeader nav a:link,
+.pageHeader nav a:visited {
+    color: #FFF;
+    display: inline-block;
+    block-size: 30px;
+    padding: 5px 23px;
+    text-decoration: none;
+}
+
+.pageHeader nav a:hover,
+.pageHeader nav a:active,
+.pageHeader nav .active a:link,
+.pageHeader nav .active a:visited {
+    background: #158739;
+    color: #FFF;
+}
+
+.Main {
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.Top {
+    margin-block-end: 3%;
+}
+
+.Content {
+    margin: 2.5rem;
+    inline-size: 70%;
+    float: inline-start;
+}
+
+.Top-sidebar {
+    inline-size: 20%;
+    justify-content: center;
+    margin-inline-start: 2%;
+    padding: 2% 3%;
+    margin-block-end: 2%;
+}
+
+.Navigation {
+    display: block;
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.875em 0;
+}
+
+.Bottom-sidebar {
+    inline-size: 20%;
+    float: inline-start;
+    margin-inline-start: 2%;
+    padding: 2% 3%;
+}
+
+.Featured {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-color: #D9D9D9;
+    border-style: solid;
+    border-width: 1px;
+    margin-block-end: 1.25em;
+    padding: 1.25em;
+    margin: 15px;
+}
+
+.PageFooter {
+    inline-size: 100%;
+    block-size: 40px;
+    float: inline-start;
+    margin-block-start: 2%;
+    margin-block-end: 2%;
+    background-color: #2BA6CB;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #FFF;
+}
+
+.PageFooter p {
+    width: 90%;
+    margin: 2% auto;
+}
+
+#nave {
+    background: #253862;
+    block-size: 40px;
+    margin: 0 30px auto;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
